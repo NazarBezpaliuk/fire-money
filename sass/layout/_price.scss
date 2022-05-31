@@ -1,0 +1,26 @@
+.price {
+  padding-top: 38px;
+  text-align: center;
+}
+.price .container {
+  padding-bottom: 233px;
+  background-image: url(../image/avto.png), url(../image/x.png), url(../image/line1.png),
+    url(../image/line2.png);
+  background-repeat: no-repeat;
+  background-position: bottom 38px left 30px, bottom 182px left 34px, bottom 65px right 250px,
+    bottom 125px left 220px;
+}
+.price__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 15.3px;
+}
+.price__text {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 31px;
+}
