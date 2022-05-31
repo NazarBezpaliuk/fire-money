@@ -1,0 +1,33 @@
+.imp-box {
+  background-color: #ffffff;
+  border-radius: 38px;
+  text-align: center;
+  padding: 30px 20.5px 48px 20.5px;
+}
+.imp-box__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #4c0085;
+  margin-bottom: 27px;
+}
+.imp-box-list__icon {
+  margin-bottom: 9px;
+  display: inline-block;
+}
+.imp-box-list__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #4c0085;
+}
+.imp-box-list__item {
+  &:not(:last-child) {
+    margin-bottom: 28px;
+  }
+}
+.bold {
+  font-size: 23px;
+  font-weight: 600;
+  display: block;
+}

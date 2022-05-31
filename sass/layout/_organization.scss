@@ -1,0 +1,86 @@
+.organithation {
+  text-align: center;
+}
+.organithation .container {
+  padding-bottom: 418px;
+  background-image: url(../image/house.png), url(../image/line3.png);
+  background-repeat: no-repeat;
+  background-position: bottom 42px left 47px, bottom 296px right 178px;
+}
+.org__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.org__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.org-list__item {
+  width: 295px;
+  padding: 29px 20px 50px 26px;
+  border-radius: 38px;
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  text-align: left;
+}
+.org-list__nummber {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  display: flex;
+  height: 58px;
+  width: 58px;
+  background-color: #7700d1;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.org-list__title {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: calc(28px / 22px);
+  color: #4c0085;
+  text-align: left;
+  margin-bottom: 21px;
+}
+.org-list-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #4c0085;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.org-list-text__br {
+  margin-bottom: 20px;
+}
+.org-list__link {
+  display: inline-block;
+  margin-top: 20px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7700d1;
+  border-bottom: 2px dotted;
+}
+.box-num {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
+}
+.org__link {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  border-bottom: 2px dotted #ffffff72;
+}

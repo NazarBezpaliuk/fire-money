@@ -1,0 +1,100 @@
+.work-me-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.work-me .container {
+  padding-bottom: 310px;
+  background-image: url(../image/cardpay.png), url(../image/x.png);
+  background-repeat: no-repeat;
+  background-position: bottom 48px left 50px, bottom 207px right 62px;
+}
+.work-me__title {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.work-me__text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-bottom: 42px;
+}
+.text-br {
+  margin-bottom: 25px;
+  display: inline-block;
+}
+.work-me__input {
+  border: none;
+  border-radius: 43px;
+  width: 284px;
+  height: 86px;
+  background-color: #ffffff;
+  padding-left: 33px;
+  transition: border 300ms linear;
+  outline: none;
+  margin-bottom: 9px;
+  &::placeholder {
+    color: #4c0085;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: calc(30px / 15px);
+    opacity: 0.45;
+  }
+}
+.work-me__btn {
+  border-radius: 43px;
+  width: 284px;
+  height: 86px;
+  border: none;
+  outline: none;
+  background-color: #ffe149;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: calc(30px / 14px);
+  letter-spacing: 0.02em;
+  color: #3e3300;
+  margin-bottom: 8.55px;
+  transition: background-color 300ms linear;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    background-color: #ffd500;
+  }
+}
+.work-me__polise {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(30px / 12px);
+  color: #ffffff;
+  margin-bottom: 27px;
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+}
+.work-me__polise-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(30px / 12px);
+  color: #ffffff;
+  &:hover,
+  &:focus {
+    color: #ffffff32;
+  }
+}
+.work-me__checkbox:checked + .work-me__polise::before {
+  background-image: url(../image/checked.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
